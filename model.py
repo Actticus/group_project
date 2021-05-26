@@ -80,5 +80,5 @@ df = pd.DataFrame({
         "Остаточная дисперсия": rmse_list,
     })
 print(df)
-df.to_excel("Вывод.xls")
+df.to_excel("output.xls")
 plt.show()
